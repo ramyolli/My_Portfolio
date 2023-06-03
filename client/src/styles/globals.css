@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding:6rem;
+
+}
+.center-items {
+  @apply flex justify-center items-center;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+.color_change {
+  /* animation: changeColors 0.5s infinite; */
+  animation-name: changeColors;
+  animation-duration: 4s;
+}
+@keyframes changeColors {
+  from {
+    @apply !bg-orange-200;
+  }
+  to {
+    @apply !bg-blue-300;
+  }
+}
