@@ -1,12 +1,15 @@
 import Link from 'next/link'
 import Marquee from 'react-fast-marquee'
 import Layout from '@/components/Layout'
+import AlertBox from '@/components/AlertBox'
 import AnimatedText from '@/components/AnimatedText'
 import { motion } from 'framer-motion'
 const ContactUs = () => {
+// const [open,set]
   return (
-    <Layout class="container bg !pt-10   mt-10 md:px-6 mx-auto">
-      <nav class="flex mb-5 mt-5 px-5" aria-label="Breadcrumb">
+    <Layout className="container bg !pt-0 !mt-0 md:px-6 mx-auto">
+    {/* <AlertBox /> */}
+      <nav class="flex mb-5 mt-5  px-5" aria-label="Breadcrumb">
         <ol class="inline-flex items-center space-x-1 md:space-x-3">
           <li class="inline-flex items-center">
             <Link href={"/"} class="flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white">
@@ -31,8 +34,6 @@ const ContactUs = () => {
       <section class="mb-5 text-gray-800">
 
         <p class="text-sm md:text-lg text-dark font-normal  lg:text-xl  px-5 mb-6 max-w-2xl">Here at {process.env.REACT_APP_MY_APP_NAME} we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-
-
 
         <motion.div
           initial={{ x: -100, opacity: 0.4 }}

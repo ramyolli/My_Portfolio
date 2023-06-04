@@ -1,0 +1,39 @@
+{
+    "testimonials": [
+        {
+            "name": "Yoland Bintu",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        },
+        {
+            "name": "Samdy White ",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        },
+        {
+            "name": "Mike Arteta",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        },
+        {
+            "name": "Sandra Rose",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        },
+        {
+            "name": "Mike Bowell",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        },
+        {
+            "name": "Pablo 202",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        },
+        {
+            "name": "Rose Mike",
+            "description": "Your description",
+            "imglink": "https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+        }
+    ]
+}

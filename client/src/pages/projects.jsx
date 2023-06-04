@@ -3,25 +3,26 @@ import Layout from '../components/Layout'
 import AnimatedText from '../components/AnimatedText'
 import profilepic from '../../public/images/profile/developer-pic-1.png'
 import Link from 'next/link'
-
+import Image from 'next/image'
+import Project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
 const Projects = () => {
-    // const FeatureProject = ({ type, title, summary, image, link, githublink }) => {
+    const FeatureProject = ({ type, title, summary, image, link, githublink }) => {
 
-    //     return (
-    //         <article>
-    //             <Link href={link || ""} className="">
-    //                 <Image src={image || profilepic} alt="user git account "
-    //                     className="w-full objective-fit h-auto" />
-    //             </Link>
-    //             <div>
-    //                 <span className="">
+        return (
+            <article>
+                <Link href={link || ""} className="">
+                    <Image src={image || profilepic} alt="user git account "
+                        className="w-full objective-fit h-auto" />
+                </Link>
+                <div>
+                    <span className="">
 
 
-    //                 </span>
-    //             </div>
-    //         </article>
-    //     )
-    // }
+                    </span>
+                </div>
+            </article>
+        )
+    }
 
 
 
@@ -40,7 +41,40 @@ const Projects = () => {
                     <AnimatedText text="Imaging Trumps Knowledges"
                         className="!text-3xl !mb-12 md:!text-4xl lg:!text-6xl md:text-left"
                     />
+                    {/* <div className="grid grid-col-12 gap-24">
 
+                        <div className="col-span-12">
+                            <FeatureProject
+                                title={"Crypto Screener Application"}
+                                summary={`A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
+It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
+local currency`}
+                                link="/"
+                                type="feature project"
+                                image={Project1}
+
+                            />
+                        </div>
+                        <div className="col-span-6 ">
+                            Project one here
+
+                        </div>
+                        <div className="col-span-6">
+                            project two here
+
+                        </div>
+                        <div className="col-span-12">
+                            FeatureProject 0here
+
+                        </div>
+                        <div className="col-span-6">
+                            project here
+                        </div>
+                        <div className="col-span-6">
+                            project here
+                        </div>
+
+                    </div> */}
 
                     <div className="bg-light relative z-10">
                         <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
